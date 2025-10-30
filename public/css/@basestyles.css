@@ -1,0 +1,1047 @@
+html, body{
+  position:relative;
+  margin: 0 auto;
+  font-size: 100%;
+  vertical-align: baseline;
+  height: 100%;
+  z-index:-4;
+  /***agregados a base***/
+  background: #003e71 url(../images/fondo.jpg) center 0px repeat-x !important;
+  font-family: 'open_sansregular', sans-serif;
+  font-size: 13px;
+  line-height: 25px;
+  padding-top: 10px;
+ /*padding-bottom: 70px;*/
+}
+
+.container_gral {
+  position:relative;
+  width: 100%;
+  /*overflow: hidden; quitado para que se ve bien en celu*/
+  max-width: 1024px;
+  min-width: 240px;
+  margin: 0 auto;
+  background-color: transparent;
+  height: 100%;
+  z-index:-3;
+/***agregados a base***/
+}
+.container_ppal {
+  position:relative;
+  width: 100%;
+ /*overflow: hidden;*/
+  max-width: 1024px;
+  min-width: 240px;
+  margin: 0 auto;
+  background-color: transparent;
+  height: 100%;
+  z-index:-2;
+}
+/***agregados a base***/
+.container_gral_reporte {
+  position:relative;
+  width: 100%;
+  overflow: hidden;
+  max-width: 1024px;
+  min-width: 240px;
+  margin: 0 auto;
+  background-color: transparent;
+  height: 100%;
+  z-index:-3;
+}
+
+.header{
+  width: 100%;
+  background-color: #06468E;
+  height: 20%;
+  /***agregados a base***/
+  height: 130px;
+/*background: #0060aa url(../images/logo.png) left 10px no-repeat !important;*/
+}
+.menu {
+  width: 100%;
+  background-color: blue;
+  /*float: left;*/
+  /*padding: 1em;*/
+  font-size: 1.1em;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /*height: 10%;*/
+  /***agregados a base***/
+  height: 50px;
+}
+.contenido {
+  position:relative;
+  width: 100%;
+  background-color: white;
+  /*float: right;*/
+  padding: 1em;
+  font-size: 1em;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 80%;
+  /***agregados a base***/
+  /*border-right: #ee8311 4px solid;
+  border-left: #ee8311 4px solid;*/
+  border-top: #ee8311 8px solid;
+  z-index:-1;
+  overflow-y: auto;
+  overflow-x:hidden;
+}
+
+div#cartel_error {
+background-color: #F2DEDE;
+color: #C91414;
+min-width: 6em;
+min-height: 3em;
+}
+.car_zona{
+  width: 15em;
+}
+
+img {
+margin: 0em;
+}
+nav#barra_consulta {
+background-color: #34ACE6;
+}
+.color1{
+  background-color:#ee8311
+}
+.color2{
+  background-color:#0F0F0F
+}
+.color3{
+background-color:#D31B1B
+}
+.color4{
+background-color:#C4D31B
+}
+.color5{
+background-color:#1BD389
+}
+.color6{
+background-color:#891BD3
+}
+/*se agrega clase para id_motivo (textarea)*/
+textarea#id_motivo {
+width: 60%;
+height: 60px;
+resize: none;
+}
+
+#lmotivo_rechazo{
+  margin-left: 17px;
+}
+
+.row-border {
+display: inline-block;
+margin-left: 5%;
+border: 1px;
+border-style: solid;
+border-color: #848484;
+width: 90%;
+padding: 10px 10px 10px 10px;
+
+}
+.row-button {
+/*se modifico*/
+ margin-right: 0%;
+ margin-left: 19%;
+  /*modificaciones sobre base*/
+/*text-align: center */
+}
+
+.error{
+  color: red;
+}
+/*********** agregado 07/05/2014 *********************/
+
+.fix{
+    width:16px;
+    *width:17px;
+    _width:16px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .fix{width:17px;}
+}
+
+
+
+#pie {
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background-color: transparent; /* #35ace6;*/
+   text-align: center;
+}
+
+#nro_pagina_fp
+{
+width:25px;
+}
+
+.highlighted{ 
+    color: #261F1D !important;
+    background-color: #617FE0 !important;
+}
+#fixed-row{
+  postion:fixed;
+}
+
+.encabezados{
+  background-color: darkgrey;
+}
+
+/*error del detalle del trámite*/
+error_dt.error { 
+  float: right; 
+  position: absolute; 
+  margin-top: -6px;
+  color: red; 
+  padding-left: .5em; 
+  vertical-align: middle; 
+  font-size: 12px; }
+error_w.error {
+  float: right; 
+  position: absolute; 
+  color: white; 
+  padding-left: .5em; 
+  vertical-align: middle; 
+  font-size: 12px;
+  margin-left: 149px;
+  margin-top: -26px;
+   }
+
+
+#btn-cerrar-modal{
+  margin-top: 15px;
+}
+/**********************/
+.row-button {
+/*se modifico*/
+ margin-right: 0%;
+ margin-left: 19%;
+ width: 200px;
+}
+#lfhasta,#lfdesde{
+  width: 100px;
+}
+
+
+
+  .toggle {
+    margin: 5px 5px 0 0;
+  }
+  select#id_estados {
+    width: auto;/*initial;*/
+  }
+
+  /**nuevo trámite**/
+  input#id_permiso_nt {
+    width: 200px;
+  }
+ /* select#id_tramites {
+    width: 17.5em;
+  }*/
+  /**Cancelar trámite**/
+  input#id_tramite {
+    width: 180px;
+  }
+
+  /****************/
+ #contenedor_tabla {
+  margin-top: 24px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 50%;
+  padding-left: 0px;
+  }
+  #tabla-scroll{
+    margin-right: -15px;
+  }
+  table#tabla-tramites-pie {
+    margin-top: 7px;
+    margin-bottom: -22px;
+  }
+  #pie_tabla {
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background-color: #A9A9A9;
+   text-align: center;
+
+}
+
+
+
+
+/***** agregado 30/05/2014******************/
+#outer{
+max-width: 640px;
+max-height: 360px;
+width: 100%;
+display: initial;
+}
+
+/*#inner{
+  height: 100%;
+  padding-bottom: 58%;
+  margin-top: 2px;
+}
+
+#inner iframe{
+    width: 100%;
+    height: 90%;
+}*/
+#inner > iframe{
+  height: 100em;
+}
+
+#inner #frame-tablero{
+    width: 103%;
+    height: 110%;
+}
+
+#frame-tablero{
+  width: 100%;
+  height: 120%;
+  position:absolute; 
+  margin-top: 50px;
+}
+
+/***agregados a base***/
+.contenido_iframe {
+position:relative;
+width: 100%;
+background-color: white;
+/*float: right;*/
+padding: 1em;
+font-size: 1em;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+height: 80%;
+/***agregados a base***/
+/*border-right: #ee8311 4px solid;
+border-left: #ee8311 4px solid;*/
+border-top: #ee8311 8px solid;
+z-index:-1;
+overflow-y: auto;
+}
+
+/****** agregado 30/05/2014**************/
+div#columna1 {
+margin-left: -15px;
+}
+
+
+#btn_imprimir_tablero_pdf {
+float: right;
+margin-right: 70px;
+}
+
+
+
+  
+  input#btn-atras {
+  margin-bottom: 9px;
+  }
+
+/***01/07/2014***/
+/*div#botones_consulta {
+  display: -webkit-box;
+}
+ 
+input#btn-cargar-detalle {
+  margin-right: 5px;
+}
+
+input#btn-cancelar-tramite {
+  margin-right: 5px;
+}
+
+input#btn-historial-tramite {
+  margin-right: 5px;
+}
+
+input#btn-nuevo-tramite {
+  margin-right: 5px;
+}*/
+
+
+/**************CAMBIOS************/
+ #div_solapa{
+  margin-top: -11px;
+  z-index: 1000001;
+ }
+a#solapa-toggle-vertical {
+    background: #06468E;
+    border-color:transparent;
+    color:white;
+  }
+  #solapa-toggle-vertical {
+    border-radius: 0px 0px 10px 10px;
+    width: 60px;
+    height: 50px;
+    padding: 6px 4px;
+    z-index: 10;
+    transition: all 0.5s ease-out 0s;
+    -webkit-transition: all 0.5s ease-in 0s;
+    -moz-transition: all 0.5s ease-in 0s;
+    -ms-transition: all 0.5s ease-in 0s;
+    -o-transition: all 0.5s ease-in 0s;
+  }
+  #solapa-toggle-vertical.active {
+    z-index: 1000001;
+    transition: all 0.5s ease-out 0s;
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+  }
+
+/******** contenedor de filtros ********/
+
+#sidebar-wrapper-vertical {
+    background: #EE8311;
+    position: absolute;
+    top: 0;
+    height: 0px;
+    overflow-y: auto;
+    z-index: 1;
+    
+    transition: height 0.5s ease-in 0s;
+    
+    -webkit-transition: height 0.5s ease-in 0s;
+    -moz-transition: height 0.5s ease-in 0s;
+    -ms-transition: height 0.5s ease-in 0s;
+    -o-transition: height 0.5s ease-in 0s;
+   
+
+    border-radius: 0 0 10px 10px;
+  }
+
+#sidebar-wrapper-vertical.active {
+top: 0;
+z-index: 100000;
+width: 97.5%;
+height: 65%;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+.sidebar-nav-vertical {
+    position: absolute;
+    top: 30px;
+    padding: 0;
+    width: 90%;
+  }
+
+  .sidebar-nav-vertical li {
+    line-height: 50px;
+    text-indent: 20px;
+  }
+
+  .sidebar-nav-vertical li a {
+    color: #999999;
+    display: block;
+    text-decoration: none;
+  }
+
+  .sidebar-nav-vertical li a:hover {
+    color: #fff;
+    background: #E08817;
+    text-decoration: none;
+  }
+
+  .sidebar-nav-vertical li a:active, .sidebar-nav-vertical li a:focus {
+    text-decoration: none;
+  }
+
+  .sidebar-nav-vertical > .sidebar-brand {
+    height: 55px;
+    line-height: 55px;
+    font-size: 18px;
+  }
+
+  .sidebar-nav-vertical > .sidebar-brand a {
+    color: #999999;
+  }
+
+  .sidebar-nav-vertical > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+  }
+
+/*****************CAMPOS******************/
+.div_sin_padding {
+padding-right: 0;
+padding-left: 0;
+}
+
+
+select#ordenar_ {
+font-size: 0.9em;
+}
+
+label#lbfechah {
+padding-right: 0;
+}
+
+.div_sin_padding input#id_subagente {
+  padding-left: 2px;
+  padding-right: 4px;
+}
+
+/**********************************/
+ /** media query**/
+ 
+/* Media Query Tablero Tramites */
+@media (min-width: 768px) and (max-width: 1002px) {
+	.recuadroFirma {
+		width: 100%!important;
+	}
+	.recuadroHab {
+		width: 100%!important;
+	}
+	.recuadroRecep {
+		width: 50%!important;
+	}
+	.recuadroPermisionarios {
+		width: 50%!important;
+	}
+}
+
+@media (max-width: 768px) {
+	.recuadroPermisionarios, .recuadroRecep, .recuadroHab,.recuadroFirma {
+		width:100%!important;
+	} 
+	div#permisionarios {
+		width: 50%!important;
+		margin-bottom:3px;
+		max-width: 388px;
+	}
+	#permisionarios div#inner {
+		max-height:222px!important
+	}		
+	#recepcionStaFe, #recepcionRosario {
+		margin-top: 0px!important;
+		margin-bottom: 3px!important;	
+	}	
+	.recuadroFinal, div#cuadroResumen {
+		width: 100%!important;
+		margin-right: 0px!important;
+	}
+	#mostrarResumen {
+		margin-right: 3px!important;
+	}	
+	.recuadroHab {
+		margin-top: 0px!important;	
+	}		
+}
+
+@media (min-width: 480px) and (max-width: 540px) {
+	div#permisionarios {
+	width: 100%!important;
+	max-width:100%!important;
+	}
+}
+@media (max-width: 480px) {
+	.recuadroPermisionarios,div#permisionarios, .recuadroRecep, div#recepcionStaFe,div#recepcionRosario, .recuadroHab, div#habilitacion,.recuadroFirma, div#firma_vice {
+		width:100%!important;
+	}   
+	div#permisionarios {
+		width: 100%!important;
+	}	
+	#recepcionStaFe, #recepcionRosario {
+		max-width: 383px;
+		margin-left: 3px;
+	}		
+}
+ /* Fin Media Query Tablero Tramites */
+  
+
+@media (min-width: 480px){
+  error_il.error {
+   margin-left: 288px;
+  }
+}
+
+@media (min-width: 640px){
+  #btn_refrescar_ct {
+    margin-right: 8%;
+  }
+
+}
+
+
+@media (min-width: 768px){
+  .row-button-consulta {
+    width: 220px;
+    margin-left: 70px;
+  }
+  
+  #btn_refrescar_ct {
+    margin-right: -5%;
+  }
+
+  /**modal**/
+  input#t_fecha_fin_m {
+      margin-left: 56px;
+  }
+  div#fila_motivo {
+    padding-top: 16px;
+    margin-top: 66px;
+  }
+
+  /**detalle tramite**/
+  div#localidad_group {
+    margin-top: 57px;
+  }
+  input#cp_localidad_m {
+    margin-left: 50px;
+  }
+  textarea#textarea_motivo_m {
+    width: 34em;
+  }
+  textarea#motivo_detalle_tramite {
+    width: 31em;
+  }
+  textarea#textoComentarios {
+    height: 4em;
+    width: 26.5em;
+  }
+  input#btn-aplicar {
+    margin-left: 15px;
+  }
+  input#subag_t {
+    width: 6.5em;
+  }
+  label#fecha_fin_m {
+    margin-left: 60px;
+  }
+  input#t_fecha_fin_m {
+    margin-left: 8px;
+  }
+  input#cant_dias {
+    margin-left: -6px;
+  }
+  input#tipo_lic {
+    margin-left: 14px;
+  }
+  select#estados_t_li {
+    margin-left: 5px;
+  }
+ 
+
+  /**Nuevo trámite**/
+  div#div_agsubag {
+    width: 575px;
+  }
+}
+
+@media (min-width: 1024px){
+  .row-button-consulta {
+    margin-right: 0%;
+    
+  margin-left: 15px;
+    width: 200px;
+  }
+ 
+  
+
+  /**detalleTramite Modal**/
+  input#cp_localidad_m {
+    margin-left: 125px;
+  }
+  input#cp_localidad_m {
+    margin-left: 126px;
+  }
+  #textarea_motivo_m{
+    width: 41em;  
+  }
+  textarea#textarea_motivo_m {
+    width: 41em;
+  }
+  label#fecha_fin_m {
+    margin-left: -6px;
+  }
+  input#t_fecha_fin_m {
+    margin-left: 155px;
+  }
+
+  /**detalleTramite**/
+  textarea#motivo_detalle_tramite {
+    width: 37em;
+  }
+  label#fecha_fin {
+    margin-left: -9px;
+  }
+  
+ 
+ /**Nuevo trámite**/
+  div#div_agsubag {
+    width: 806px;
+  }
+}
+@media (min-width: 1270px){
+  /**detalleTramite modal**/
+  input#cp_localidad_m {
+    margin-left: 71px;
+  }
+  textarea#textarea_motivo_m {
+    width: 43em;
+  }
+  input#fI_m {
+    margin-left: -274px;
+   }
+  label#fecha_fin_m {
+    margin-left: 87px;
+  }
+  input#t_fecha_fin_m {
+   margin-left: 271px;
+  }
+  /**detalleTramite**/
+  textarea#motivo_detalle_tramite {
+    width: 42.5em;
+  }
+  input#subag_t {
+    margin-left: 0px;
+  }
+  textarea#textoComentarios {
+    width: 36.5em;
+    margin-right: 27px;
+  }
+  label#fecha_fin {
+    margin-left: 60px;
+  }
+  input#tfecha_fin {
+    margin-left: -70px;
+  }
+
+  /**Nuevo trámite**/
+  div#div_agsubag {
+    width: 820px;
+  }
+}/*fin media query 1280*/
+@media (min-width: 1366px){
+ .row-button-consulta {
+    margin-right: 0%;
+    margin-left: 65px;
+    width: 200px;
+    margin-top: -8%;
+  }
+  
+  #contenedor_tabla {
+  height: 50%;
+  }
+  /**detalleTramite modal**/
+  input#btn-aplicar {
+    margin-left: 0px;
+  }
+  input#cp_localidad_m {
+    margin-left: 62px;
+  }
+  textarea#textarea_motivo_m {
+    width: 40.7em;
+  }
+
+  input#t_fecha_fin_m {
+    margin-left: 244px;
+  }
+  select#estados_t_li {
+    margin-left: 0px; 
+  }
+   /**consulta por nº de tramite*/
+  label#subagente {
+    width: 13%;
+  }
+ 
+  div#fila_codigoPostal {
+    padding-left: 0.5%;
+  }
+  
+  label#lestados_t {
+    margin-right: 3px;
+  }
+  
+  input#cp_localidad {
+    margin-left: 40px;
+    width: 7.3em;
+  }
+  input#tfecha_fin{
+    margin-left: -102px;
+   }
+  label#fecha_fin {
+    margin-left: 62px;
+  }
+  label#motivo_m {
+    width: 24.8%;
+  }
+  input#subag_t {
+    margin-left: 69px;
+  }
+  textarea#motivo_detalle_tramite {
+    width: 39.5em;
+  }
+  textarea#textoComentarios {
+    width: 34em;
+    margin-right: 62px;
+  }
+  div#dias_group {
+    margin-top: 55px;
+  }
+  textarea#motivo_m {
+    width: 40.5em;
+  }
+  textarea#motivo_detalle_tramite {
+    width: 40.5em;
+  }
+  input#subag_t {
+    width: 7.5em;
+  }
+  /**Nuevo trámite**/
+  div#div_agsubag {
+    width: 820px;
+  }
+  
+}/*fin media query 1366*/
+
+div#errores {
+  display: none;
+  position: fixed !important;
+  z-index: 1000;
+}
+
+/****Panel estratégico****/
+span#llocal_c {
+display: inherit;
+}
+#div_anexo{
+  padding-right: 0;
+  padding-left: 35px;
+}
+
+.div_sin_margen_top{
+  margin-top: -6px;
+}
+
+.color_td{
+  bgcolor: #D7D7D7;
+}
+span#uno,#dos,#tres,#cuatro{
+  float: right;
+}
+div#vidriera{
+  height: 173px;
+}
+div#div_circulacion {
+  height: 8.4em;
+}
+
+.nuevoPermiso{
+  background-color: cadetblue;
+}
+.maquinas {
+    background-color: #E7E7E7;
+}
+/*barra de btnes consulta*/
+button#btn-cargar-detalle, button#btn-cancelar-tramite,
+button#btn-historial-tramite, button#btn-nuevo-tramite, 
+button#btn-imprimir, button#btn-csv, button#btn-imprimir-resolucion,
+button#btn-imprimir-caratula, button#btn-nota-solicitud,
+button#btn-admin-maquinas,button#btn_completar_tramite, 
+button#btn_adjudicar_agencia,button#btn_adjudicar_subagencia, button#btn_imprimir, button#btn_csv {
+background-color: #34ACE6;
+border-color: #7E7A7A;
+font-weight: bolder;
+}
+#barra_btnes{
+  margin-left: -3em;
+  margin-top: 0.5em;
+}
+
+/*** detalle****/
+.contenido div#divSubAAg {
+  margin-left: 10px;
+}
+
+/*********modal detalle *************/
+div#div_tipo_persona {
+  margin-bottom: -11px;
+}
+
+@media (min-width: 768px) and (max-width: 1002px){} 
+  div#div_ganancias {
+    margin-left: -6px;
+  }
+  div#div_ingresos {
+    width: 14.5em;
+  }
+}
+/**********Admin máquinas**********/
+
+form#formulario-maquina-seleccionada .incorporar_btn {
+background: url('../images/confirmar.jpg') no-repeat;
+background-position:center center;
+background-size: 2em;
+border: none;
+height: 2.5em;
+width: 2.6em;
+}
+
+form#formulario-maquina-seleccionada .retirar_btn {
+background: url('../images/borrar.png') no-repeat;
+background-position:center center;
+background-size: 2em;
+border: none;
+height: 2.5em;
+width: 2.6em;
+}
+
+img#peligro {
+max-height: 15px;
+}
+
+
+/******* permisos ********/
+
+div#div_cant_permisos_modal {
+  margin: 0 auto;
+  float: none;
+}
+
+.modal-open .ui-datepicker table{
+  font-size: 1em;
+  color: black;
+}
+
+.modal-open .ui-datepicker-title{
+  color: black;
+}
+
+div#div_motivo_baja_modal {
+  float: none;
+}
+
+.center-table
+{
+  margin: 0 auto !important;
+  /*float: none !important;*/
+}
+
+div#select_motivo {
+    float: none;
+    margin: 0 auto;
+}
+
+
+/* check evaluación domicilio */
+
+.funkyradio div {
+  clear: both;
+  overflow: hidden;
+}
+
+.funkyradio label {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #D1D3D4;
+  font-weight: normal;
+}
+
+.funkyradio input[type="checkbox"]:empty {
+  display: none;
+}
+
+.funkyradio input[type="checkbox"]:empty ~ label {
+  position: relative;
+  line-height: 2.5em;
+  text-indent: 3.25em;
+  margin-top: 2em;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.funkyradio input[type="checkbox"]:empty ~ label:before {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 2.5em;
+  background: #D1D3D4;
+  border-radius: 3px 0 0 3px;
+}
+
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+  color: #888;
+}
+
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+  content: '\2714';
+  text-indent: .9em;
+  color: #C2C2C2;
+}
+
+.funkyradio input[type="checkbox"]:checked ~ label {
+  color: #777;
+}
+
+.funkyradio input[type="checkbox"]:checked ~ label:before {
+  content: '\2714';
+  text-indent: .9em;
+  color: #333;
+  background-color: #ccc;
+}
+
+.funkyradio input[type="checkbox"]:focus ~ label:before {
+  box-shadow: 0 0 0 3px #999;
+}
+
+.funkyradio-info input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #5bc0de;
+}
+/* fin check evaluación domicilio */
+/* tabla cuantitativo evaluación domicilio */
+.table-inbox tr.unread td {
+    background: none repeat scroll 0 0 #f7f7f7;
+    font-weight: 600;
+}
+
+/* fin tabla cuantitativo evaluación domicilio */
+
+/* lista entorno evaluación domicilio*/
+
+.list-left li, .list-right li {
+    cursor: pointer;
+}
+
+.list-arrows {
+    padding-top: 100px;
+}
+
+.list-arrows button {
+    margin-bottom: 20px;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  background: thistle;
+  padding: 3px 10px;
+}
+
+.list-group-item{
+  padding: 3px 10px;
+}
+/*fin lista entorno evaluación domicilio*/

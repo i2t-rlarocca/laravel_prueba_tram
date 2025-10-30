@@ -1,0 +1,253 @@
+body {
+background: #003e71 url(../images/fondo.jpg) center 0px repeat-x;	
+color: #444;
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+line-height: 20px;
+}
+.ticket {
+width:986px;
+margin:auto;
+background:#0060aa;
+text-align: left;
+border-top: #ee8311 4px solid;
+padding-top:10px;
+float:left;
+margin-left:10%;
+}
+h1 {
+display: block;
+line-height: 1;
+margin: 0.8em;
+font-weight: normal;
+text-rendering: optimizelegibility;
+width: 50%;
+top: 10px;
+white-space: normal;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+font-weight: 700;
+color: #1ba1e2;
+margin-left: 130px;
+}
+h3 {
+text-align:center;
+margin: auto;
+}
+#btn_refrescar {
+    float: right;
+	margin-right:90px;
+	padding: 2px 1px 2px 1px;
+}
+input.text {
+margin:3px;
+}
+#buscarlocalidad{
+width:250px;
+}
+#id_juego
+{
+width:25px;
+}
+#sorteo
+{
+width:177px;
+text-align:right;
+}
+#nro_secuencia
+{
+width:177px;
+text-align:right;
+}
+.radio {
+width:7px;
+}
+.spam {
+width:986px;
+height:170px;
+margin:auto;
+min-height: 1px;
+background: #0060aa;
+float:left;
+margin-left:10%;
+}
+.formula {
+background:white;
+display:block;
+}
+.header {
+padding-top: 12px;
+width:986px;
+height:169px;
+margin:auto;
+}
+img {
+margin: 1em;
+}
+.table {
+display:inline-block;
+margin: 0.8em;
+height: 540px;
+}
+
+.bordes_1{
+display:inline-block;
+margin-left:100px;
+border:1px;
+border-style: solid;
+border-color: #848484;
+margin-right: 100px;
+}
+.datos_1{
+float:left;
+margin-left:30px;
+margin-top:20px;
+}
+.datos_1 label{
+display:inline-block;
+width:100px;
+}
+/*#cp {
+margin-left: 2px;
+}*/
+.datos_2{
+margin: 5px 100px 100px 100px;
+border-top: #848484 1px solid;
+border-bottom: #848484 1px solid;
+border-right: #848484 1px solid;
+border-left: #848484 1px solid;
+display: inline-block;
+padding: 5px;
+}
+.bordes_2{
+/*display:inline-block;
+margin-top:5px;
+margin-left:75px;
+border:1px;
+border-style: solid;
+border-color: #848484;*/
+}
+.dos {
+margin-top: 10px;
+margin-left:30px;
+float:left;
+}
+.datos_2 label{
+display:inline-block;
+width:100px;
+}
+#subcodigo_postal{
+width:20px;
+}
+#codigo_postal{
+width:60px;
+}
+.bordes_3{
+/*float:right;
+display:inline-block;
+margin-top:5px;
+margin-right:0px;
+border:1px;
+border-style: solid;
+border-color: #848484;*/
+}
+.tres {
+margin-top:10px;
+margin-bottom: 60px;
+margin-right:5px;
+margin-left:40px;
+float:left;
+}
+#importe_bruto{
+text-align:right;
+}
+#otros_premios{
+text-align:right;
+}
+#imponible{
+text-align:right;
+}
+#retencion{
+text-align:right;
+}
+#impuestos{
+text-align:right;
+}
+#importe_neto{
+text-align:right;
+}
+.enviar {
+width:100%;
+}
+.btn-primary {
+color: #FFFFFF;
+text-decoration: none !important;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+background-color: #35ace6;
+background-image: linear-gradient(to bottom,#47b4e9,#1ba1e2);
+background-repeat: repeat-x;
+border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+padding: 4px 14px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.1);
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.1);
+box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.1);
+margin-left:0px;
+margin-bottom:5px;
+display:inline-block;
+width:auto;
+}
+#btn_conf_local{
+	width:150px;
+	margin-left: 3px;
+	margin-bottom: 118px;
+}
+#btn-valida-premio{
+margin-top: 4px;
+}
+#btn-loca {
+margin-top:2px;
+margin-left:3px;
+padding: 2px 1px 2px 1px;
+/*float:left;*/
+/*position:relative;*/
+/*bottom:27px;*/
+}
+.lista1 {
+width:350px;
+}
+.magia {
+display:none;
+}
+.error_ticket {
+width:230px!important;
+color=red;
+}
+.boton_cargar_premio {
+margin-left:30px;
+}
+.bordes_localidad{
+float:left;
+display:inline-block;
+margin-top:5px;
+margin-right:100px;
+border:1px;
+border-style: solid;
+border-color: #848484;
+margin-left:100px;
+}
+.localidad{
+padding:10px;
+float:left;
+margin-left:20px;
+margin-right:50px;
+}
+#btn-carga-premio{
+margin-left:0px;
+float:left;
+}
+#btn-imp{
+padding: 2px 1px 2px 1px;
+}
